@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/app2', (req, res) => {
+  res.send('Lets fucking go! Finally got it to work!')
+})
+
 app.listen(port, () => {
   console.log(`Sean's epic app is listening on port ${port}`)
 })
